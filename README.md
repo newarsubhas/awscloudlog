@@ -59,8 +59,3 @@ To enable the function to run when a new object is put, you'd need to enable the
 ###Exploring CloudTrail logs with Logsene
 As logs get uploaded to the S3 bucket, the function should upload their contents to Logsene. You can use the native UI to explore those logs:
 ![native](https://raw.githubusercontent.com/sematext/logsene-aws-lambda-s3/master/img/native.png)
-
-And because CloudTrail logs get parsed out of the box, you can also use Kibana 4 to generate visualizations. Like breaking down events by their type:
-![Kibana](https://raw.githubusercontent.com/sematext/logsene-aws-lambda-s3/master/img/kibana.png)
-
-Happy Logsene-ing!
