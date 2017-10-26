@@ -1,5 +1,3 @@
-
-# logsene-aws-lambda-s3
 [AWS Lambda](https://aws.amazon.com/documentation/lambda/) function to send logs that you store in [Amazon S3](https://aws.amazon.com/documentation/s3/) to [Logsene](https://sematext.com/logsene/). As you put new log files to your S3 bucket, you can use this function to fetch the log and send its contents to your Logsene application.
 
 ## Features
